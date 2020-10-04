@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<style>
+body {
+    background-color: white;
+    font-family: arial,sans-serif;
+}
+div {
+    display: flex;
+    justify-content: center;
+}
+.buttons {
+    background-color: #f2f2f2;
+    color: #5f6368;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+}
+.input-search {
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    padding-left: 10px;
+    height: 36px;
+    width: 400px;
+}
+
+#logo {
+margin-top: 150px;
+margin-bottom: 16px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+li {
+    display: inline;
+    padding-left: 15px;
+}
+</style>
+<header>
+    <ul>
+        <li><a href="https://about.google/">About</a></li>
+        <li><a href="https://store.google.com/">Store</a></li>
+        <li style="float:right"><a href="https://mail.google.com">Gmail</a></li>
+    </ul>
+</header>
+<body>
+<div id="logo">
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+</div>
+<div>
+<form>
+    <input class="input-search" type="text" placeholder="Search">
+</div>
+<div>
+    <button type="submit" class="buttons">Google Search</button>
+    <button type="button" class="buttons">I'm Feeling Lucky</button>
+</form> 
+</div>
+</body>
